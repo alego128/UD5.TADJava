@@ -1,0 +1,36 @@
+1. Diferencias en el orden de los elementos de cada Set:
+
+HashSet: No garantiza ningún orden específico de los elementos.
+Los elementos pueden aparecer en cualquier orden cada vez que se ejecuta el programa, 
+porque HashSet no mantiene ningún tipo de orden.
+
+TreeSet: Los elementos se ordenan en orden ascendente por defecto, 
+en este caso alfabéticamente, porque TreeSet asegura el orden de los elementos 
+de acuerdo con su orden natural o el comparador proporcionado.
+
+LinkedHashSet: Mantiene el orden en que los elementos fueron insertados.
+Es decir, los elementos se imprimirán en el mismo orden en que se añadieron,
+sin importar si están ordenados alfabéticamente o no.
+
+
+2. Por qué el TreeSet ordena los elementos alfabéticamente:
+
+TreeSet utiliza un árbol de búsqueda binaria para almacenar los elementos. 
+Este tipo de estructura de datos asegura que los elementos estén siempre 
+ordenados de acuerdo con su orden natural (en este caso, el orden alfabético de
+los strings) o el comparador proporcionado al TreeSet.
+
+3. Qué Set elimina los elementos duplicados y por qué ocurre esto:
+
+Todos los Sets (HashSet, TreeSet, LinkedHashSet) eliminan los elementos duplicados. 
+Esto se debe a la característica de los sets en Java que no permiten elementos duplicados. 
+El motivo es que las implementaciones de Set (como HashSet y TreeSet) se basan
+en estructuras de datos que automáticamente verifican la unicidad de los
+elementos al ser insertados. Si un elemento ya existe en el Set, no se añadirá
+de nuevo, por lo que los duplicados son eliminados.
+
+4. Cuál es el Set más rápido para insertar elementos y por qué:
+
+wwwww
+
+5. 
